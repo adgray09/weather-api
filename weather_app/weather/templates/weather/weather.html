@@ -1,0 +1,49 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-offset-4 is-4">
+                    <div class="box">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-50x50">
+                                    <img src="http://openweathermap.org/img/w/{{ city_weather.icon }}.png" alt="Image">
+                                </figure>
+                                    <div class="media-content">
+                                        <div class="content">
+                                    
+                                    <h1>{{ city_weather.city }}</h1>
+                                    <h1>{{ city_weather.weather}}° F</h1>
+                                    <h1>{{ city_weather.description }}</h1>
+
+                                    </div>
+                                        </div>
+                                    </article>
+                                    <h1>how are you feeling today?</h1>
+                                    <ul>
+                                        <li>
+                                            <button>good</button>
+                                        </li>
+                                        <li>
+                                            <button>bad</button>
+                                        </li>
+                                        <li>
+                                            <button>okay</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                                            
+</body>
